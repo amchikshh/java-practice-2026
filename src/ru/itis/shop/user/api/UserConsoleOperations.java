@@ -1,4 +1,4 @@
-package src.ru.itis.shop.user.api;
+package ru.itis.shop.user.api;
 
 import ru.itis.shop.user.domain.User;
 import ru.itis.shop.user.repository.UserRepository;
@@ -40,6 +40,12 @@ public class UserConsoleOperations {
                 System.out.println("Вы можете войти в приложение");
             }
             break;
+            case "3": {
+                System.out.println("Введите нужный id:");
+                String id = scanner.nextLine();
+                System.out.println("Сейчас поищем");
+                userRepository.findById(id);
+            }
             case "0": {
                 System.exit(0);
             }

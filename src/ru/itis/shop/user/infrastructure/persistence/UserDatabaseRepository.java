@@ -1,4 +1,4 @@
-package src.ru.itis.shop.user.infrastructure.persistence;
+package ru.itis.shop.user.infrastructure.persistence;
 
 import ru.itis.shop.user.domain.User;
 import ru.itis.shop.user.repository.UserRepository;

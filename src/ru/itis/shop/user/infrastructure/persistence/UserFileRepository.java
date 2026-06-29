@@ -1,11 +1,9 @@
-package src.ru.itis.shop.user.infrastructure.persistence;
+package ru.itis.shop.user.infrastructure.persistence;
 
 import ru.itis.shop.user.domain.User;
 import ru.itis.shop.user.repository.UserRepository;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.UUID;
 
 public class UserFileRepository implements UserRepository {
@@ -33,6 +31,21 @@ public class UserFileRepository implements UserRepository {
 
     @Override
     public User findById(String id) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] parts = line.split("\\|");
+                if (parts[0].equals(id)) {
+                    User user = new User(parts[0], parts[1], parts[2], parts[3]);
+                    System.out.println("email Пользователя с id "
+                            + parts[0] + " - " + parts[1]);
+                    return user;
+                }
+            }
+        } catch (IOException e) {
+            throw new IllegalStateException(e);
+        }
+        System.out.println("Такого пользователя нет");
         return null;
     }
 }

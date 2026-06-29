@@ -1,4 +1,4 @@
-package src.ru.itis.shop.user.repository;
+package ru.itis.shop.user.repository;
 
 import ru.itis.shop.user.domain.User;
 
