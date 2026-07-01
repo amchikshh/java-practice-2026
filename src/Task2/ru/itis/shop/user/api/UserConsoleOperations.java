@@ -27,6 +27,10 @@ public class UserConsoleOperations {
                 signIn();
             }
             break;
+            case "4": {
+                updateDescritpion();
+            }
+            break;
             case "0": {
                 System.exit(0);
             }
@@ -37,6 +41,7 @@ public class UserConsoleOperations {
         System.out.println("1. Регистрация пользователя");
         System.out.println("2. Вход в систему");
         System.out.println("3. Найти пользователя по id");
+        System.out.println("4. Изменить описание профиля");
         System.out.println("0. Выход");
     }
 
@@ -64,6 +69,20 @@ public class UserConsoleOperations {
             System.out.println("Вы вошли в приложение");
         } else {
             System.out.println("Email или пароль не верны");
+        }
+    }
+
+    private void updateDescritpion() {
+        System.out.println("Обновление описания профиля");
+        System.out.println("Введите email пользователя");
+        String email = scanner.nextLine();
+        System.out.println("Введите новое описание");
+        String description = scanner.nextLine();
+
+        if (userService.updateDescription(email, description)) {
+            System.out.println("Описание обновлено");
+        } else {
+            System.out.println("Пользователь не найден");
         }
     }
 }

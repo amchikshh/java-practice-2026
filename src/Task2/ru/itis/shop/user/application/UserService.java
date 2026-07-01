@@ -24,4 +24,14 @@ public class UserService {
             return userOptional.get().getPassword().equals(password);
         } else return false;
     }
+
+    public boolean updateDescription(String email, String description) {
+        Optional<User> userOptional = userRepository.findByEmail(email);
+
+        if (userOptional.isPresent()) {
+            userOptional.get().setProfileDescription(description);
+            userRepository.updateUserDescription(userOptional.get());
+            return true;
+        } else return false;
+    }
 }

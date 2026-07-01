@@ -4,6 +4,7 @@ import Task1.ru.itis.shop.user.domain.User;
 import Task1.ru.itis.shop.user.repository.UserRepository;
 
 import java.io.*;
+import java.util.Optional;
 import java.util.UUID;
 
 public class UserFileRepository implements UserRepository {
@@ -30,7 +31,7 @@ public class UserFileRepository implements UserRepository {
     }
 
     @Override
-    public User findById(String id) {
+    public Optional<User> findById(String id) {
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
             String line;
             while ((line = reader.readLine()) != null) {
@@ -39,13 +40,12 @@ public class UserFileRepository implements UserRepository {
                     User user = new User(parts[0], parts[1], parts[2], parts[3]);
                     System.out.println("email Пользователя с id "
                             + parts[0] + " - " + parts[1]);
-                    return user;
+                    return Optional.of(user);
                 }
             }
+            return Optional.empty();
         } catch (IOException e) {
             throw new IllegalStateException(e);
         }
-        System.out.println("Такого пользователя нет");
-        return null;
     }
 }
