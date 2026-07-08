@@ -1,0 +1,24 @@
+package Task5.ru.itis.shop.app;
+
+import Task5.ru.itis.shop.infrastructure.persistence.jdbc.DriverManagerDataSource;
+import Task5.ru.itis.shop.user.api.UserConsoleOperations;
+import Task5.ru.itis.shop.user.application.UserService;
+import Task5.ru.itis.shop.user.infrastructure.persistence.jdbc.UserRepositoryJdbcImpl;
+import Task5.ru.itis.shop.user.repository.UserRepository;
+
+import javax.sql.DataSource;
+
+public class Main {
+    public static void main(String[] args) {
+        DataSource dataSource  = new DriverManagerDataSource("jdbc:postgresql://localhost:5432/amchikshh",
+                "postgres", "1234");
+        UserRepository userRepository = new UserRepositoryJdbcImpl(dataSource);
+        UserService userService = new UserService(userRepository);
+
+        UserConsoleOperations operations = new UserConsoleOperations(userService);
+
+        while (true) {
+            operations.showMenu();
+        }
+    }
+}
