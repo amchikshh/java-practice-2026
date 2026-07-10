@@ -1,13 +1,12 @@
-package Task6.ru.itis.shop.app;
+package Task5.ru.itis.shop.app;
 
-import Task6.ru.itis.shop.infrastructure.persistence.jdbc.DriverManagerDataSource;
-import Task6.ru.itis.shop.user.api.UserConsoleOperations;
-import Task6.ru.itis.shop.user.application.UserService;
-import Task6.ru.itis.shop.user.infrastructure.persistence.jdbc.UserRepositoryJdbcImpl;
-import Task6.ru.itis.shop.user.repository.UserRepository;
+import Task5.ru.itis.shop.infrastructure.persistence.jdbc.DriverManagerDataSource;
+import Task5.ru.itis.shop.user.api.UserConsoleOperations;
+import Task5.ru.itis.shop.user.application.UserService;
+import Task5.ru.itis.shop.user.infrastructure.persistence.jdbc.UserRepositoryJdbcImpl;
+import Task5.ru.itis.shop.user.repository.UserRepository;
 
 import javax.sql.DataSource;
-import java.util.Properties;
 
 public class Main {
     public static void main(String[] args) {
