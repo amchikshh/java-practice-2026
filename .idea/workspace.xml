@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3382056e-e4a3-4e48-b7be-88fa19d62fff" name="Changes" comment="сделал task 6">
+      <change afterPath="$PROJECT_DIR$/Task7/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task7/src/main/java/Task7/ru/itis/shop/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task7/src/main/java/Task7/ru/itis/shop/util/PropertiesReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task7/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task6/ru/itis/shop/infrastructure/persistence/jdbc/DriverManagerDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task6/ru/itis/shop/infrastructure/persistence/jdbc/RowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task6/ru/itis/shop/lib/postgresql-42.7.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task6/ru/itis/shop/user/api/UserConsoleOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task6/ru/itis/shop/user/api/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task6/ru/itis/shop/user/application/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task6/ru/itis/shop/user/application/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task6/ru/itis/shop/user/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task6/ru/itis/shop/user/infrastructure/persistence/jdbc/UserRepositoryJdbcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task6/ru/itis/shop/user/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task6/ru/itis/shop/util/PropertiesReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/IntelliLang.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-practice-2026.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task1/ru/itis/shop/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task1/ru/itis/shop/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task1/ru/itis/shop/user/api/UserConsoleOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task1/ru/itis/shop/user/api/UserConsoleOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task1/ru/itis/shop/user/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task1/ru/itis/shop/user/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task1/ru/itis/shop/user/infrastructure/persistence/UserDatabaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task1/ru/itis/shop/user/infrastructure/persistence/UserDatabaseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task1/ru/itis/shop/user/infrastructure/persistence/UserFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task1/ru/itis/shop/user/infrastructure/persistence/UserFileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task1/ru/itis/shop/user/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task1/ru/itis/shop/user/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task2/ru/itis/shop/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task2/ru/itis/shop/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task2/ru/itis/shop/user/api/UserConsoleOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task2/ru/itis/shop/user/api/UserConsoleOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task2/ru/itis/shop/user/application/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task2/ru/itis/shop/user/application/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task2/ru/itis/shop/user/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task2/ru/itis/shop/user/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task2/ru/itis/shop/user/infrastructure/persistence/UserFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task2/ru/itis/shop/user/infrastructure/persistence/UserFileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task2/ru/itis/shop/user/infrastructure/persistence/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task2/ru/itis/shop/user/infrastructure/persistence/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task2/ru/itis/shop/user/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task2/ru/itis/shop/user/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task3/Schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task3/Schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4/ru/itis/shop/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task4/ru/itis/shop/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4/ru/itis/shop/lib/postgresql-42.7.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/src/main/java/Task7/ru/itis/shop/lib/postgresql-42.7.12.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4/ru/itis/shop/user/api/UserConsoleOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task4/ru/itis/shop/user/api/UserConsoleOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4/ru/itis/shop/user/application/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task4/ru/itis/shop/user/application/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4/ru/itis/shop/user/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task4/ru/itis/shop/user/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4/ru/itis/shop/user/infrastructure/persistence/UserFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task4/ru/itis/shop/user/infrastructure/persistence/UserFileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4/ru/itis/shop/user/infrastructure/persistence/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task4/ru/itis/shop/user/infrastructure/persistence/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4/ru/itis/shop/user/infrastructure/persistence/UserRepositoryJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task4/ru/itis/shop/user/infrastructure/persistence/UserRepositoryJdbcImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4/ru/itis/shop/user/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task4/ru/itis/shop/user/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task5/ru/itis/shop/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task5/ru/itis/shop/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task5/ru/itis/shop/infrastructure/persistence/jdbc/DriverManagerDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task5/ru/itis/shop/infrastructure/persistence/jdbc/DriverManagerDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task5/ru/itis/shop/infrastructure/persistence/jdbc/RowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task5/ru/itis/shop/infrastructure/persistence/jdbc/RowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task5/ru/itis/shop/lib/postgresql-42.7.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task4/ru/itis/shop/lib/postgresql-42.7.12.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task5/ru/itis/shop/user/api/UserConsoleOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task5/ru/itis/shop/user/api/UserConsoleOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task5/ru/itis/shop/user/application/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task5/ru/itis/shop/user/application/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task5/ru/itis/shop/user/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task5/ru/itis/shop/user/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task5/ru/itis/shop/user/infrastructure/persistence/jdbc/UserRepositoryJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task5/ru/itis/shop/user/infrastructure/persistence/jdbc/UserRepositoryJdbcImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task5/ru/itis/shop/user/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task5/ru/itis/shop/user/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task6/ru/itis/shop/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task6/ru/itis/shop/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task6/ru/itis/shop/infrastructure/persistence/jdbc/DriverManagerDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/src/main/java/Task7/ru/itis/shop/infrastructure/persistence/jdbc/DriverManagerDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task6/ru/itis/shop/infrastructure/persistence/jdbc/RowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/src/main/java/Task7/ru/itis/shop/infrastructure/persistence/jdbc/RowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task6/ru/itis/shop/lib/postgresql-42.7.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task5/ru/itis/shop/lib/postgresql-42.7.12.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task6/ru/itis/shop/user/api/UserConsoleOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/src/main/java/Task7/ru/itis/shop/user/api/UserConsoleOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task6/ru/itis/shop/user/api/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/src/main/java/Task7/ru/itis/shop/user/api/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task6/ru/itis/shop/user/application/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/src/main/java/Task7/ru/itis/shop/user/application/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task6/ru/itis/shop/user/application/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/src/main/java/Task7/ru/itis/shop/user/application/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task6/ru/itis/shop/user/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/src/main/java/Task7/ru/itis/shop/user/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task6/ru/itis/shop/user/infrastructure/persistence/jdbc/UserRepositoryJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/src/main/java/Task7/ru/itis/shop/user/infrastructure/persistence/jdbc/UserRepositoryJdbcImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task6/ru/itis/shop/user/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/src/main/java/Task7/ru/itis/shop/user/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/users.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;amchikshh&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:amchikshh/java-practice-2026.git&quot;,
+    &quot;accountId&quot;: &quot;2e291f0f-40aa-48a2-a0d8-9fcb4971c556&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3FntUSswUM5Mkxr8P6dBOi2CfvW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/amchikshh/IdeaProjects/java-practice-2026/Task7/src/main/java/Task7",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Task7/src/main/java/Task7" />
+      <recent name="$PROJECT_DIR$/Task7/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/Task6" />
+      <recent name="$PROJECT_DIR$/src/Task5/ru/itis/shop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Task6.ru.itis.shop.user.api" />
+      <recent name="Task6.ru.itis.shop.infrastructure.persistence.jdbc" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3382056e-e4a3-4e48-b7be-88fa19d62fff" name="Changes" comment="" />
+      <created>1782722678919</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782722678919</updated>
+      <workItem from="1783075679788" duration="12071000" />
+      <workItem from="1783161204885" duration="2430000" />
+      <workItem from="1783350321346" duration="19734000" />
+      <workItem from="1783589379640" duration="837000" />
+      <workItem from="1783594023428" duration="44000" />
+      <workItem from="1783594074603" duration="236000" />
+      <workItem from="1783594319560" duration="57000" />
+      <workItem from="1783594496626" duration="267000" />
+      <workItem from="1783594772750" duration="100000" />
+      <workItem from="1783594911848" duration="2411000" />
+      <workItem from="1783608732794" duration="2242000" />
+      <workItem from="1783668748303" duration="354000" />
+    </task>
+    <task id="LOCAL-00001" summary="find by id">
+      <option name="closed" value="true" />
+      <created>1782725576287</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782725576287</updated>
+    </task>
+    <task id="LOCAL-00002" summary="распределил по task1 task2">
+      <option name="closed" value="true" />
+      <created>1782824962927</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1782824962927</updated>
+    </task>
+    <task id="LOCAL-00003" summary="в task 1 переписал поиск по айди на optional, в task 2 сделал метод обновления данных">
+      <option name="closed" value="true" />
+      <created>1782900533151</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1782900533151</updated>
+    </task>
+    <task id="LOCAL-00004" summary="сделал task 3">
+      <option name="closed" value="true" />
+      <created>1783002493024</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1783002493025</updated>
+    </task>
+    <task id="LOCAL-00005" summary="сделал task 4">
+      <option name="closed" value="true" />
+      <created>1783274634363</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1783274634363</updated>
+    </task>
+    <task id="LOCAL-00006" summary="сделал task 5">
+      <option name="closed" value="true" />
+      <created>1783492388651</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1783492388651</updated>
+    </task>
+    <task id="LOCAL-00007" summary="сделал task 6">
+      <option name="closed" value="true" />
+      <created>1783589396896</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1783589396896</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="find by id" />
+    <MESSAGE value="распределил по task1 task2" />
+    <MESSAGE value="в task 1 переписал поиск по айди на optional, в task 2 сделал метод обновления данных" />
+    <MESSAGE value="сделал task 3" />
+    <MESSAGE value="сделал task 4" />
+    <MESSAGE value="сделал task 5" />
+    <MESSAGE value="сделал task 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="сделал task 6" />
+  </component>
+</project>
